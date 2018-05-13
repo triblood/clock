@@ -1,0 +1,61 @@
+.clock {
+    width: 500px;
+    height: 500px;
+    display: block;
+    float: left;
+    position: relative;
+}
+/* .clock > div{
+    transition: all 0.25s ease-in-out 0s;
+} */
+
+.segundos {
+    width: 450px;
+    height: 450px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url('../image/watchface_03.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.minutos {
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url('../image/watchface_03.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    z-index: 5;
+}
+
+.horas {
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url('../image/watchface_03.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    z-index: 10;
+}

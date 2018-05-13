@@ -5,9 +5,9 @@
     float: left;
     position: relative;
 }
-/* .clock > div{
-    transition: all 0.25s ease-in-out 0s;
-} */
+.clock > div{
+    transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1) 0s;
+}
 
 .segundos {
     width: 450px;
@@ -44,8 +44,8 @@
 }
 
 .horas {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     display: block;
     position: absolute;
     right: 0;

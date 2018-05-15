@@ -5,9 +5,9 @@
     float: left;
     position: relative;
 }
-.clock > div{
+/* .clock > div{
     transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1) 0s;
-}
+} */
 
 .segundos {
     width: 450px;
@@ -19,16 +19,16 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    background-image: url('../image/watchface_03.png');
+    background-image: url('../image/watchface_01.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
     transform: rotate(45deg);
-    z-index: 1;
+    z-index: 5;
 }
 
 .minutos {
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     display: block;
     position: absolute;
     right: 0;
@@ -36,7 +36,7 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    background-image: url('../image/watchface_03.png');
+    background-image: url('../image/watchface_02.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
     transform: rotate(45deg);
@@ -44,8 +44,8 @@
 }
 
 .horas {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     display: block;
     position: absolute;
     right: 0;
